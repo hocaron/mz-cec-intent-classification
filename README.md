@@ -62,3 +62,4 @@ pip install -r requirements.txt
 ~~~
 python prediction.py
 ~~~
+"# name-it" 
