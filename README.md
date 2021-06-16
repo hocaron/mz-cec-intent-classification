@@ -1,5 +1,5 @@
-# 1. 코드 설명
-### ㄱ.  train.py
+# 코드 설명
+### 1.  train.py
 a. 학습데이터의 의도를 숫자화하고, 원 의도와 숫자화된 의도 정보를 2차원 배열 label에 저장함 <br/>
 b. 학습 데이터 전처리 <br/>
    - text : 전처리할 텍스트 <br/>
@@ -13,14 +13,14 @@ e. 모델학습 <br/>
    - 사용된 activation function : relu, relu, softmax <br/>
 f. 학습된 모델 저장(h5파일) <br/>
    
-### ㄴ. predict.py
+### 2. predict.py
 a. train.py 에서 사용된 변수들을 import <br/>
 b. 데이터 전처리 <br/>
 c. string이 아니면 비어있는 값 추가( 비어있는 데이터에서 멈추지 않도록) <br/>
 d. 사전에 학습된 h5추론파일 load <br/>
 e. 모델에 대입, 예측값 갱성, 결과txt파일 생성 <br/>
 
-### ㄷ. train 데이터와 dev 데이터의 정확도
+### 3. train 데이터와 dev 데이터의 정확도
 test.txt. 의 accuracy<br/>
 ![test acc](https://user-images.githubusercontent.com/66713459/103552401-351a5300-4eef-11eb-8820-d0eb859e2720.jpg) <br/>
 accuracy : 96% <br/>
